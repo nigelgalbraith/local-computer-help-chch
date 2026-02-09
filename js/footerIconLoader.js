@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
       src: `${imagePathPrefix}/icons/optimized/github.png`,
     },
     {
-      href: "https://nigelgalbraith.github.io/portfolio.github.io/",
+      href: "https://nigelgalbraith.github.io/portfolio/",
       alt: "Portfolio",
       src: `${imagePathPrefix}/icons/optimized/portfolio.png`,
     },
