@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Local Computer Help (Chch) - About</title>
+
+  <!-- CSS Styles -->
+  <link rel="stylesheet" href="styles/style.css" />
+
+  <!-- JSON-style embedded data (must load before mainTextLoader.js) -->
+  <script src="js/JSON/mainTextData.js"></script>
+
+  <!-- JavaScript Functionality -->
+  <script src="js/menuToggle.js" defer></script>
+  <script src="js/mainTextLoader.js" defer></script>
+  <script src="js/footerIconLoader.js" defer></script>
+ </head>
+
+ <body>
+  <!-- 
+    Dynamic Content Notes:
+    - Hamburger menu toggles nav visibility (js/menuToggle.js)
+    - Footer icons and contact links are inserted dynamically by js/footerIconLoader.js
+    - Main text loaded from MAIN_TEXT_DATA by js/mainTextLoader.js
+  -->
+
+  <!-- Background grid layer -->
+  <div class="grid-bg"></div>
+  <div class="container">
+   <h1>Local Computer Help (Chch)</h1>
+
+   <!-- Navigation Bar -->
+   <nav class="navbar">
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+    <div class="nav-links" id="navLinks">
+     <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="about.html">About Me</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+     </ul>
+    </div>
+   </nav>
+
+   <!-- Main Content Section Text (dynamically loaded via mainTextLoader.js) -->
+   <main class="main-content">
+    <div class="main-content-flex">
+     <div class="main-content-text" data-main-text="about"></div>
+
+     <!-- Responsive Profile Image -->
+     <div class="main-content-image-padding">
+      <picture>
+       <source media="(min-width: 480px)" srcset="images/main/optimized/mobile/standard/nigel-cartoon.png" />
+       <source media="(min-width: 1024px)" srcset="images/main/optimized/laptop/standard/nigel-cartoon.png" />
+       <source media="(min-width: 1280px)" srcset="images/main/optimized/desktop/standard/nigel-cartoon.png" />
+       <img 
+        alt="Cartoon image of Nigel Galbraith" 
+        src="images/main/optimized/mobile/standard/nigel-cartoon.png" />
+      </picture>
+     </div>
+    </div>
+   </main>
+
+   <!-- Footer dynamically loaded by footerIconLoader.js -->
+   <footer></footer>
+  </div>
+ </body>
+</html>
