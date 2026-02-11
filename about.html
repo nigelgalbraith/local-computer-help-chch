@@ -3,7 +3,7 @@
  <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Local Computer Help (Chch) - About</title>
+  <title>About | Local Computer Help Christchurch</title>
 
   <!-- CSS Styles -->
   <link rel="stylesheet" href="styles/style.css" />
@@ -28,12 +28,19 @@
   <!-- Background grid layer -->
   <div class="grid-bg"></div>
   <div class="container">
-   <h1>Local Computer Help (Chch)</h1>
+   <h1>Local, Straightforward Computer Help</h1>
 
    <!-- Navigation Bar -->
    <nav class="navbar">
-    <button class="hamburger" onclick="toggleMenu()">☰</button>
-    <div class="nav-links" id="navLinks">
+      <button
+          class="hamburger"
+          type="button"
+          aria-label="Toggle navigation menu" 
+          aria-controls="navLinks"
+          aria-expanded="false"
+          onclick="toggleMenu(this)" 
+      >☰</button>
+      <div class="nav-links" id="navLinks" onclick="toggleMenu(document.querySelector('.hamburger'))">
      <ul>
       <li><a href="index.html">Home</a></li>
       <li><a class="active" href="about.html">About Me</a></li>
@@ -51,12 +58,10 @@
      <!-- Responsive Profile Image -->
      <div class="main-content-image-padding">
       <picture>
-       <source media="(min-width: 480px)" srcset="images/main/optimized/mobile/standard/nigel-cartoon.png" />
-       <source media="(min-width: 1024px)" srcset="images/main/optimized/laptop/standard/nigel-cartoon.png" />
-       <source media="(min-width: 1280px)" srcset="images/main/optimized/desktop/standard/nigel-cartoon.png" />
-       <img 
-        alt="Cartoon image of Nigel Galbraith" 
-        src="images/main/optimized/mobile/standard/nigel-cartoon.png" />
+        <source media="(min-width: 1280px)" srcset="images/main/optimized/desktop/standard/nigel-cartoon.png" />
+        <source media="(min-width: 1024px)" srcset="images/main/optimized/laptop/standard/nigel-cartoon.png" />
+        <source media="(min-width: 480px)" srcset="images/main/optimized/mobile/standard/nigel-cartoon.png" />
+        <img alt="Cartoon image of Nigel Galbraith" src="images/main/optimized/mobile/standard/nigel-cartoon.png" />
       </picture>
      </div>
     </div>

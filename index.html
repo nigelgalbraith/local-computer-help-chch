@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Local Computer Help (Chch)</title>
+  <title>Local Computer Help in Christchurch | Honest IT Support</title>
 
   <!-- CSS stylesheets -->
   <link href="styles/style.css" rel="stylesheet" />
@@ -30,12 +30,19 @@
 
   <!-- Main content wrapper -->
   <div class="container">
-   <h1>Local Computer Help (Chch)</h1>
+   <h1>Clear, Honest Computer Help in Christchurch</h1>
 
    <!-- Navigation Bar with hamburger menu for mobile -->
    <nav class="navbar">
-    <button class="hamburger" onclick="toggleMenu()">☰</button>
-    <div class="nav-links" id="navLinks">
+      <button
+          class="hamburger"
+          type="button"
+          aria-label="Toggle navigation menu" 
+          aria-controls="navLinks"
+          aria-expanded="false"
+          onclick="toggleMenu(this)" 
+      >☰</button>
+      <div class="nav-links" id="navLinks" onclick="toggleMenu(document.querySelector('.hamburger'))">
      <ul>
       <li><a class="active" href="index.html">Home</a></li>
       <li><a href="about.html">About Me</a></li>
@@ -53,9 +60,9 @@
     <!-- Image block  -->
     <div class="main-content-image">
       <picture>
-        <source media="(min-width: 480px)" srcset="images/main/optimized/mobile/standard/diverse.png" />
-        <source media="(min-width: 1024px)" srcset="images/main/optimized/laptop/standard/diverse.png" />
         <source media="(min-width: 1280px)" srcset="images/main/optimized/desktop/standard/diverse.png" />
+        <source media="(min-width: 1024px)" srcset="images/main/optimized/laptop/standard/diverse.png" />
+        <source media="(min-width: 480px)" srcset="images/main/optimized/mobile/standard/diverse.png" />
         <img alt="Work background image" src="images/main/optimized/mobile/standard/diverse.png" />
       </picture>
     </div>

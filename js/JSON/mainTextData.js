@@ -4,10 +4,11 @@
 const MAIN_TEXT_DATA = {
 
   home: {
-    paragraphs: [
-      "Local Computer Help (Chch) provides practical computer support for home users and small businesses in Christchurch.",
-      "If your computer is running slow, crashing, not connecting to Wi-Fi, or you just need a new setup done properly, I can help.",
-      "The goal is simple: fix the problem, explain what was done in plain English, and leave you with a setup that’s stable and easy to use."
+  paragraphs: [
+    "Local Computer Help (Chch) provides practical computer support for home users and small businesses in Christchurch.",
+    "If your computer is running slow, crashing, not connecting to Wi-Fi, or you just need a new setup done properly, I can help.",
+    "The goal is simple: fix the problem, explain what was done in plain English, and leave you with a setup that’s stable and easy to use.",
+    "To get started, email or call with what’s happening and what device you’re using. If you’re not sure how to describe the problem, that’s fine just explain it in your own words."
     ]
   },
 
@@ -21,12 +22,13 @@ const MAIN_TEXT_DATA = {
   contact: {
     paragraphs: [
       "Want to get in touch? Send a message with a short description of the issue and what device you’re using (PC, laptop, printer, Wi-Fi router, etc).",
-      "If you’re not sure what the problem is, that’s fine — describe what you’re seeing and we’ll work it out."
+      "If you’re not sure what the problem is, that’s fine just describe what you’re seeing and we’ll work it out."
     ],
     lists: [
       {
         items: [
           'Email: <a href="mailto:nigelgalbraith@proton.me">nigelgalbraith@proton.me</a>',
+          'Phone: <a href="tel:+642102314973">+64 210 231 4973</a>',
           'Location: Christchurch, New Zealand'
         ]
       }
@@ -177,5 +179,4 @@ const MAIN_TEXT_DATA = {
       }
     ]
   }
-
 };

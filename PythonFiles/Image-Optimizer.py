@@ -19,9 +19,9 @@ IMAGE_PROFILES = {
         "output_base": "../images/main/optimized",
         "quality": 90,
         "sizes": {
-            "desktop": {"standard": 1280, "zoom": 1920},
-            "laptop":  {"standard": 1024, "zoom": 1366},
-            "mobile":  {"standard": 480,  "zoom": 768}
+            "desktop": {"standard": 1280},
+            "laptop":  {"standard": 1024},
+            "mobile":  {"standard": 480}
         }
     },
     "services": {
@@ -29,9 +29,9 @@ IMAGE_PROFILES = {
         "output_base": "../services/images/main/optimized",
         "quality": 90,
         "sizes": {
-            "desktop": {"standard": 1280, "zoom": 1920},
-            "laptop":  {"standard": 1024, "zoom": 1366},
-            "mobile":  {"standard": 480,  "zoom": 768}
+            "desktop": {"standard": 1280},
+            "laptop":  {"standard": 1024},
+            "mobile":  {"standard": 480}
         }
     }
 }

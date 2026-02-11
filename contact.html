@@ -3,7 +3,7 @@
  <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Local Computer Help (Chch) - Contact</title>
+  <title>Contact | Local Computer Help Christchurch</title>
 
   <!-- CSS stylesheets -->
   <link href="styles/style.css" rel="stylesheet" />
@@ -30,12 +30,19 @@
 
   <!-- Page container -->
   <div class="container">
-   <h1>Local Computer Help (Chch)</h1>
+   <h1>Get in Touch</h1>
 
    <!-- Navigation Bar -->
    <nav class="navbar">
-    <button class="hamburger" onclick="toggleMenu()">☰</button>
-    <div class="nav-links" id="navLinks">
+      <button
+          class="hamburger"
+          type="button"
+          aria-label="Toggle navigation menu" 
+          aria-controls="navLinks"
+          aria-expanded="false"
+          onclick="toggleMenu(this)" 
+      >☰</button>
+      <div class="nav-links" id="navLinks" onclick="toggleMenu(document.querySelector('.hamburger'))">
      <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About Me</a></li>

@@ -20,24 +20,16 @@ document.addEventListener("DOMContentLoaded", () => {
   // List of social/contact icons with links
   const iconList = [
     {
-      href: "mailto:nigel.galbraith@proton.me",
+      href: "mailto:nigelgalbraith@proton.me",
       alt: "Email",
+      title: "Email Nigel",
       src: `${imagePathPrefix}/icons/optimized/email.png`,
     },
     {
-      href: "https://github.com/nigelgalbraith/nigelgalbraith.github.io",
-      alt: "GitHub",
-      src: `${imagePathPrefix}/icons/optimized/github.png`,
-    },
-    {
-      href: "https://nigelgalbraith.github.io/portfolio/",
-      alt: "Portfolio",
-      src: `${imagePathPrefix}/icons/optimized/portfolio.png`,
-    },
-    {
-      href: "https://www.linkedin.com/in/nigel-galbraith/",
-      alt: "LinkedIn",
-      src: `${imagePathPrefix}/icons/optimized/linkedin.png`,
+      href: "tel:+642102314973",
+      alt: "Phone",
+      title: "Call Nigel",
+      src: `${imagePathPrefix}/icons/optimized/phone.png`,
     },
   ];
 
