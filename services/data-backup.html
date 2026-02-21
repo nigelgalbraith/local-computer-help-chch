@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data Backup Help | Local Computer Help Christchurch</title>
+
+  <!-- CSS Styles -->
+  <link href="../styles/style.css" rel="stylesheet"/>
+
+  <!-- Embedded JSON-style content -->
+  <script src="../js/JSON/mainTextData.js"></script>
+  <script src="js/JSON/serviceSteps.js"></script>
+
+  <!-- JavaScript Functionality -->
+  <script src="../js/footerIconLoader.js" defer></script>
+  <script src="js/serviceStepsData.js" defer></script>
+  <script src="../js/responsiveImageLoader.js" defer></script>
+  <script src="../js/mainTextLoader.js" defer></script>
+</head>
+
+<body data-service="dataBackup">
+  <!-- 
+    Dynamic Content Notes:
+    - Responsive images injected via ../js/responsiveImageLoader.js
+    - Image zoom modal handled by js/modalZoom.js
+    - Main service text injected via ../js/mainTextLoader.js using MAIN_TEXT_DATA
+    - Service steps injected via js/serviceStepsData.js using serviceSteps
+    - Step images rendered via ../js/responsiveImageLoader.js
+    - Footer content dynamically loaded via ../js/footerIconLoader.js
+  -->
+
+  <div class="grid-bg"></div>
+
+  <div class="container">
+    <h1>Protecting Files You Can’t Afford to Lose</h1>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="../index.html">Back To Home</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Page Content -->
+    <main class="main-content">
+      <div class="main-content-flex-centre">
+        <h2>Data Backup Help</h2>
+
+        <!-- Responsive Image with Zoom (injected by responsiveImageLoader.js) -->
+        <div class="boxed-content-main-image">
+          <div class="main-content-image">
+            <div class="image-zoom-wrapper">
+              <div class="responsive-image" data-img-name="data-backup-main.png" data-alt="Data Backup Overview" data-class="centre-img"></div>
+            </div>
+          </div>
+        </div>
+        <div class="step-separator"></div>
+
+        <!-- Main Service Description Text -->
+        <div class="main-content-text" data-main-text="dataBackup"></div>
+
+        <!-- Step-by-Step Service Breakdown -->
+        <div class="main-content-step-text">
+          <section></section>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer Content -->
+    <footer></footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Computer & IT Services | Local Computer Help Christchurch</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/style.css" />
+
+  <!-- Data -->
+  <script src="js/JSON/mainTextData.js" defer></script>
+  <script src="js/JSON/servicesListData.js" defer></script>
+
+  <!-- JS -->
+  <script src="js/footerIconLoader.js" defer></script>
+  <script src="js/mainTextLoader.js" defer></script>
+  <script src="js/servicesListLoader.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Navigation Bar -->
+  <nav class="navbar" aria-label="Primary navigation">
+    <ul class="nav-links">
+      <li><a class="active" href="#top">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+    <main class="main-content" id="top">
+      <h1>Practical Help for Common Computer Problems</h1>
+
+      <!-- Intro text dynamically injected -->
+      <section class="main-content-flex">
+        <div class="main-content-text" data-main-text="home"></div>
+      </section>
+
+      <!-- Services -->
+      <section id="services">
+        <h2>Services</h2>
+        <div class="grouped-list">
+          <!-- Service cards injected by servicesListLoader.js -->
+        </div>
+      </section>
+
+      <!-- Contact text dynamically injected -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <div class="main-content-text" data-main-text="contact"></div>
+      </section>
+    </main>
+
+    <!-- Footer loaded by footerIconLoader.js -->
+    <footer></footer>
+  </div>
+</body>
+</html>
