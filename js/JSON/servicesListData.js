@@ -36,7 +36,7 @@ const SERVICES_LIST_DATA = [
       <ul>
         <li>Fix slow speeds, dropouts, and devices that won’t connect.</li>
         <li>Router setup, placement checks, and basic network troubleshooting.</li>
-        <li>Improve coverage with practical options (settings, placement, extenders/mesh if needed).</li>
+        <li>Improve coverage with practical options (settings, placement, extenders).</li>
         <li>Reconnect and test phones, laptops, TVs, and other devices.</li>
       </ul>
     `
