@@ -61,7 +61,7 @@ ASSET_SETS = {
     }
 }
 
-REQUIRED_PACKAGES = ["PIL"]  # Only what's actually used at runtime
+REQUIRED_PACKAGES = ["PIL"]
 VALID_EXTS = ('.jpg', '.jpeg', '.png')
 
 #=================

@@ -5,7 +5,7 @@ const MAIN_TEXT_DATA = {
 
   home: {
     paragraphs: [
-      "Local Computer Help (Chch) provides practical computer support for home users and small businesses in Christchurch. If your computer is running slow, crashing, not connecting to Wi-Fi, or you just need a new setup done properly, I can help.",
+      "Local Computer Help (Chch) provides practical computer support for home users in Christchurch. If your computer is running slow, crashing, not connecting to Wi-Fi, or you just need a new setup done properly, I can help.",
       
       "The goal is simple: fix the problem, explain what was done in plain English, and leave you with a setup that’s stable and easy to use. To get started, email or call with what’s happening and what device you’re using. If you're not sure how to describe the problem, that’s fine just explain it in your own words.",
       
