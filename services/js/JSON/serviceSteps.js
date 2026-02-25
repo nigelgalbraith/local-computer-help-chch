@@ -189,33 +189,6 @@ const serviceSteps = {
       alt: "Basic protection setup",
       text: "I make sure basic protections are enabled and explain simple habits that reduce the chance of it happening again."
     }
-  ],
-
-  computerTraining: [
-    {
-      title: "What You Want to Learn",
-      img: "training-goals.png",
-      alt: "Training goals",
-      text: "We decide what you want help with: emails, files/folders, photos, internet basics, safety, or general confidence."
-    },
-    {
-      title: "Hands-On Guidance",
-      img: "training-hands-on.png",
-      alt: "Hands-on guidance",
-      text: "Step-by-step help at your pace, using your own device, without jargon or rushing."
-    },
-    {
-      title: "Simple Notes",
-      img: "training-notes.png",
-      alt: "Simple notes",
-      text: "If helpful, I can leave short notes/checklists so you can repeat the steps later without relying on memory."
-    },
-    {
-      title: "Follow-Up Support",
-      img: "training-followup.png",
-      alt: "Follow-up support",
-      text: "If you get stuck later, you can follow up with questions so you’re not left stranded after one session."
-    }
   ]
 
 };

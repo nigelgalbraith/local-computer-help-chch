@@ -96,19 +96,5 @@ const SERVICES_LIST_DATA = [
         <li>Advice on simple habits that reduce repeat infections.</li>
       </ul>
     `
-  },
-  {
-    href: "services/computer-training.html",
-    img: "images/thumbs/optimized/computer-training.png",
-    alt: "General computer training thumbnail",
-    title: "General Computer Training",
-    description: `
-      <ul>
-        <li>One-on-one help using your own computer at your pace.</li>
-        <li>Learn everyday tasks: email, files/folders, photos, and internet basics.</li>
-        <li>No jargon just practical guidance and repetition if needed.</li>
-        <li>Optional simple notes so you can repeat steps later.</li>
-      </ul>
-    `
   }
 ];
